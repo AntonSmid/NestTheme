@@ -19,6 +19,15 @@ body {
   padding: 1rem;
 }
 
+/* ===== NAVIGATION ===== */
+.navbar {
+  padding: .6rem 1rem;
+  background-color: rgba(57,63,70,.9);
+}
+
+.navbar-brand img {
+  height: 2rem;
+}
 
 
 
