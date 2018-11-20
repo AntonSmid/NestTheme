@@ -22,6 +22,10 @@ body {
 /* ===== NAVIGATION ===== */
 .navbar {
   padding: .6rem 1rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
   background-color: rgba(57,63,70,.9);
 }
 
@@ -29,6 +33,24 @@ body {
   height: 2rem;
 }
 
+.navbar-nav .nav-link {
+  color: #fff;
+  padding-top: .8rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #00b3ff;
+}
+
+.svg-inline--fa.fa-w-14 {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.navbar-nav li{
+  padding-right: .8rem;
+}
 
 
 
