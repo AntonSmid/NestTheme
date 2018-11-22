@@ -105,9 +105,9 @@ h3.heading {
 }
 
 .heading-underline {
-  width: 5rem;
+  width: 10rem;
   height: 0.2rem;
-  border-color: #00b3ff;
+  background-color: #00b3ff;
   margin: 0 auto 2rem;
 }
 
@@ -124,6 +124,34 @@ h3.heading {
 
 .about p {
   font-size: 1.1rem;
+}
+
+
+/* ====== PORTFOLIO SECTION ====== */
+
+.padding {
+  padding: 2rem 0;
+}
+
+.no-padding [class*=col-] {
+  padding: 0;
+}
+
+img.example-image {
+  max-width: 100%;
+}
+
+.portfolio-item img:hover {
+  transform: scale(1.1);
+  cursor: zoom-in;
+}
+
+.portfolio-item img {
+  transition: transform .4s ease;
+}
+
+.portfolio-item {
+  overflow: hidden;
 }
 
 
