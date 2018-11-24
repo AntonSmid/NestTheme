@@ -154,6 +154,31 @@ img.example-image {
   overflow: hidden;
 }
 
+/* ====== TESTIMONIALS SECTION ====== */
+
+.card {
+  margin: 0 1rem;
+  border-radius: 0;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.card h4 {
+  font-weight: 700;
+}
+
+.card h5 {
+  color: #00b3ff;
+}
+
+.card p {
+  border-top: 1px solid rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 
